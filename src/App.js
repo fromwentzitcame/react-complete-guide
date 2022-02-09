@@ -26,7 +26,7 @@ function App() {
 
   function addExpenseHandler(expense) {
     console.log('in App.js');
-    console.log(expense);
+    expenses.push(expense)
   }
 
   return (
